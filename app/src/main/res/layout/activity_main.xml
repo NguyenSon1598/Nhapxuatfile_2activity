@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ettenfile"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Tên file"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btnchonfile"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="Chọn file" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etnoidungfile"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnnhapmoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nhập mới" />
+
+        <Button
+            android:id="@+id/btnluufile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu file" />
+    </LinearLayout>
+
+
+</LinearLayout>
